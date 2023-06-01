@@ -15,4 +15,7 @@
   .padding {
     @apply p-8;
   }
+  .animation {
+    @apply transition-all duration-300;
+  }
 }

@@ -13,7 +13,7 @@ export function TopBarProfile({
   img,
 }: TopBarProfileProps) {
   return (
-    <div className={`w-fit center-y gap-3 ${className}`}>
+    <div className={`w-fit center-y gap-5 ${className}`}>
       <h2 className='text-lg font-bold text-gray-700'>{userName}</h2>
       <div className={`p-2 rounded-lg bg-blue-300`}>
         {img ? (
