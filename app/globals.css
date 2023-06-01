@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .center-y {
+    @apply flex items-center;
+  }
+  .center-xy {
+    @apply flex items-center justify-center;
+  }
+  .padding-x {
+    @apply px-8;
+  }
+  .padding {
+    @apply p-8;
+  }
+}
