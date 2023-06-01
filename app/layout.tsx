@@ -27,7 +27,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </ClientOnly>
         </header>
         <section className=''>hi</section>
-        <section className='col-span-3'>{children}</section>
+        <section className='col-span-3 pb-3'>
+          <section className='bg-gray-100 rounded-lg h-full padding'>
+            {children}
+          </section>
+        </section>
         <section className=''></section>
       </body>
     </html>
