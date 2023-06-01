@@ -2,7 +2,7 @@ import React from 'react';
 import './globals.css';
 import { Roboto } from 'next/font/google';
 import { ClientOnly } from '@/components/shared/clientOnly';
-import { Navbar } from '@/components/navbar/navbar';
+import { TopBar } from '@/components/top_bar/topBar';
 
 const font = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'] });
 
@@ -23,7 +23,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       >
         <header className='col-span-5'>
           <ClientOnly>
-            <Navbar />
+            <TopBar />
           </ClientOnly>
         </header>
         <section className=''>hi</section>
