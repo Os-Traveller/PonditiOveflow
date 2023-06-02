@@ -5,6 +5,7 @@
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 @layer components {
@@ -15,10 +16,16 @@
     @apply flex items-center justify-center;
   }
   .padding-x {
-    @apply px-8;
+    @apply px-5;
   }
   .padding {
-    @apply p-8;
+    @apply p-5;
+  }
+  .animation {
+    @apply transition-all duration-300;
+  }
+  .card {
+    @apply border border-blue-200 rounded-lg bg-white shadow;
   }
   .animation {
     @apply transition-all duration-300;

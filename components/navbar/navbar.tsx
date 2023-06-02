@@ -12,7 +12,7 @@ export function Navbar() {
   const currentPath = usePathname();
 
   return (
-    <nav className='px-5 shadow-md bg-white'>
+    <nav className='shadow-md bg-white'>
       <div className='container center-y justify-between'>
         <Logo />
         <div className='center-y gap-5'>
