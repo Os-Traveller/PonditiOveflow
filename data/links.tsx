@@ -1,11 +1,13 @@
-import { HiHome } from 'react-icons/hi';
+import { LuHome } from 'react-icons/lu';
 import { FiEdit } from 'react-icons/fi';
-import { BsPeopleFill } from 'react-icons/bs';
-import { FaUserAlt } from 'react-icons/fa';
+import { CgProfile } from 'react-icons/cg';
 
 export const links = [
-  { url: '/', title: 'Home', icon: <HiHome size={25} /> },
-  { url: '/answer', title: 'Answer', icon: <FiEdit size={20} /> },
-  { url: '/following', title: 'Following', icon: <BsPeopleFill size={20} /> },
-  { url: '/profile', title: 'Profile', icon: <FaUserAlt size={18} /> },
+  { url: '/', title: 'Home', icon: <LuHome size={25} /> },
+  { url: '/answer', title: 'Answer', icon: <FiEdit size={25} /> },
+  {
+    url: '/profile',
+    title: 'Profile',
+    icon: <CgProfile size={25} />,
+  },
 ];
