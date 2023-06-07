@@ -2,7 +2,7 @@ import { MdOutlineLiveHelp } from 'react-icons/md';
 import { HiOutlinePencilAlt } from 'react-icons/hi';
 import { user } from '@/fake_data/user';
 import { ProfileIcon } from '../navbar/profileIcon';
-import { Card } from '../shared/Card';
+import { Card } from '../shared/card';
 
 export function Question() {
   const buttonStyle = `w-full center-y gap-2 py-1 justify-center text-lg rounded-md hover:bg-gray-300 animation`;
