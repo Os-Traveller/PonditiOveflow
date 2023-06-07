@@ -2,8 +2,9 @@ import React from 'react';
 
 interface CardProps {
   children: React.ReactNode;
+  className?: string;
 }
 
-export function Card({ children }: CardProps) {
-  return <div className='card'>{children}</div>;
+export function Card({ children, className }: CardProps) {
+  return <section className={`${className} card`}>{children}</section>;
 }
