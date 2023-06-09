@@ -21,7 +21,7 @@ export function FeedFooter() {
             false ? '' : 'bg-gray-200'
           }`}
         >
-          <BiComment /> | 12
+          <BiDownvote /> | 12
         </p>
 
         {/* comments */}

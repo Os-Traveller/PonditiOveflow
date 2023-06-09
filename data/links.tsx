@@ -4,7 +4,7 @@ import { CgProfile } from 'react-icons/cg';
 
 export const links = [
   { url: '/', title: 'Home', icon: <LuHome size={25} /> },
-  { url: '/answer', title: 'Answer', icon: <FiEdit size={25} /> },
+  { url: '/questions', title: 'Questions', icon: <FiEdit size={25} /> },
   {
     url: '/profile',
     title: 'Profile',
