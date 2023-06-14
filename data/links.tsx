@@ -6,7 +6,7 @@ export const links = [
   { url: '/', title: 'Home', icon: <LuHome size={25} /> },
   { url: '/questions', title: 'Questions', icon: <FiEdit size={25} /> },
   {
-    url: '/profile',
+    url: '/profile/faisal/?page=about',
     title: 'Profile',
     icon: <CgProfile size={25} />,
   },
